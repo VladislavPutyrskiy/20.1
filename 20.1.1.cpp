@@ -46,7 +46,7 @@ int main()
         std::ofstream file("statement.txt", std::ios::app);
         if (!file.is_open())
         {
-            std::cout << "check file path";
+            std::cout << "wrong file path";
         }
         else
         {

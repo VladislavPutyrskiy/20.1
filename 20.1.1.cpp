@@ -50,7 +50,7 @@ int main()
         }
         else
         {
-            file << name << ' ' << surname << ' ' << money << ' ' << day << '.' << month << '.' << year;
+            file << name << ' ' << surname << ' ' << money << ' ' << day << '.' << month << '.' << year <<std::endl;
         }
     }
 }
